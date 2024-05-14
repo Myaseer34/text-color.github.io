@@ -1,0 +1,30 @@
+/* Importing font family */
+@import url('https://fonts.cdnfonts.com/css/budokan-rounded');
+
+/* Removing additional css from browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Adding bg color & centering the content */
+body {
+    background: #101013;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#text {
+    font-family: 'Bungee';
+    color: #afa8a8;
+    font-size: 5rem;
+    line-height: 1;
+    max-width: 50%;
+    text-align: center;
+
+    /* Added transition so colours change smoothly */
+    transition: all .5s ease;
+}
