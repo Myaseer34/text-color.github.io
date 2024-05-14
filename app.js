@@ -9,5 +9,5 @@ function changeColor() {
 }
 
 // Seconds variable
-const seconds = .5
+const seconds = 30
 setInterval(changeColor, seconds * 1000); // Call changeColor function every 500ms
